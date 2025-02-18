@@ -1,0 +1,46 @@
+Cahier des Charges Mini-Projet 1 : Application de Chat via Email
+1. Présentation du Mini-Projet
+L'objectif est de développer une application de chat similaire à WhatsApp mais utilisant les adresses email comme identifiant unique des utilisateurs. L'application doit être une application client-serveur standard fonctionnant sur desktop et utilisant les protocoles TCP et UDP avec des sockets en Java.
+2. Périmètre du Projet
+Le projet est divisé en deux niveaux :
+1. Niveau de base : Implémentation des fonctionnalités fondamentales de chat sans interface graphique.
+2. Niveau avancé : Ajout d'une interface graphique, conception de base de données, modélisation UML et gestion des cas d'utilisation.
+3. Fonctionnalités 3.1. Niveau de base
+• Enregistrement et authentification des utilisateurs via email.
+• Envoi et réception de messages texte en temps réel via sockets TCP/UDP.
+• Gestion de la connexion et déconnexion des utilisateurs.
+• Conservation des messages des utilisateurs non connectés.
+• Gestion des erreurs et validation des données.
+3.2. Niveau avancé
+• Interface graphique ergonomique en Java (JavaFX/Swing).
+• Système de contacts (ajout, suppression, affichage de statut en ligne/hors ligne).
+• Stockage des messages dans une base de données (MySQL, PostgreSQL, SQLite...).
+• Gestion des groupes de discussion.
+• Notifications et sons d'alerte pour nouveaux messages.
+• Gestion des fichiers multimédias (envoi et réception de fichiers images, audios, vidéos).
+• Historique des conversations.
+4. Contraintes Techniques
+• Langage : Java
+• Communication : Sockets TCP et UDP
+
+• Base de données : MySQL/PostgreSQL/SQLite (pour le niveau avancé)
+• Interface graphique : JavaFX ou Swing
+• Architecture : Client-serveur
+5. Modélisation UML
+• Diagramme de classes
+• Diagramme des cas d'utilisation
+6. Déploiement
+• Installation sur desktop
+• Fichier exécutable (.jar)
+7. Planification du Développement
+Phase 1 : Niveau de base
+• Implémentation de la communication client-serveur via sockets.
+• Authentification et gestion des utilisateurs.
+• Envoi et réception de messages texte.
+Phase 2 : Niveau avancé
+• Intégration de l'interface graphique.
+• Gestion des contacts et historique des conversations.
+• Stockage en base de données.
+• Ajout des fichiers multimédias et notifications.
+8. Conclusion
+Ce projet vise à fournir une solution de messagerie performante basée sur les emails sans stockage en local côté serveur, avec une approche progressive permettant aux élèves ingénieurs un développement intégral de ses compétences technologiques.
